@@ -1,6 +1,186 @@
 @import "https://fonts.googleapis.com/css?family=Cormorant+Garamond";
+@import "https://fonts.googleapis.com/css?family=Prociono";
+@import "https://fonts.googleapis.com/css?family=PT+Serif";
+@import "https://fonts.googleapis.com/css?family=Abel";
+@import "https://fonts.googleapis.com/css?family=Poiret+One";
+
+
+nav{
+  display:none;
+}
+
+p {
+ font-size: 25px;
+ line-height: 1.4em;
+ margin-bottom: 20px;
+ color: #444;
+}
+
+p{
+  font-family: "Prociono", sans-serif;
+}
 
 body{
-  border: solid;
-  font-size: 100px
+  background-color: #D8D8D8;
+  max-width: 480px;
+  max-height: 960px;
+}
+
+h1{
+  padding-left: 150px;
+  font-family: , sans-serif;
+  font-size: 50.5px;
+}
+
+#contact{
+  float:right;
+  padding-right: 40px;
+  position:absolute;
+  right: 0;
+  top:0;
+
+  font-family: "Cormorant Garamond", sans-serif;
+  font-size: 25px;
+  border-left-style: double;
+  padding-left: 10px;
+}
+
+#summary{
+  padding: 10px;
+  position: relative;
+  top:70px;
+  right:160px;
+  border-top-style: dotted;
+  border-bottom-style: solid;
+}
+
+
+#summary h2{
+  text-align: center;
+  position: relative;
+  right: 80px;
+}
+
+#summary p{
+  position: relative;
+  left: 80px;
+}
+
+#summary,#education,#work,#leadership,#activities h2{
+  font-family: "Prociono", sans-serif;
+}
+
+#education{
+  padding: 30px;
+  position: relative;
+  top:60px;
+  left: 50px;
+  padding:20px 10px 30px 30px;
+  width: 50%;
+}
+
+#work{
+  padding: 30px;
+  position: relative;
+  bottom:20px;
+  left: 50px;
+  padding:20px 10px 30px 30px;
+  width: 50%;
+}
+
+
+#leadership{
+  padding: 30px;
+  position: relative;
+  bottom:80px;
+  left: 50px;
+  padding:10px 40px 70px 30px;
+  width:50%;
+  }
+
+#activities{
+  padding: 30px;
+  position: relative;
+  left: 50px;
+  bottom:180px;
+  width: 50%;
+}
+
+#econtent{
+  position: relative;
+  left: 490px;
+  bottom: 25px;
+  border-left-style: solid;
+  border-left-color: #900000;
+  padding-left: 10px;
+}
+
+#econtent p{
+  font-size: 20px;
+  font-family: "Abel", sans-serif;
+}
+
+#wcontent{
+  position: relative;
+  left: 490px;
+  bottom: 110px;
+  border-left-style: solid;
+  border-left-color: #900000;
+  padding-left: 10px;
+}
+
+#wcontent p{
+  border-bottom-style: ridge;
+  width: 350px;
+  font-family: "PT Serif", sans-serif;
+}
+
+#wcontent ul{
+  font-family: "Abel", sans-serif;
+  list-style-type: square;
+}
+
+#lcontent{
+  position: relative;
+  left: 490px;
+  bottom: 210px;
+  border-left-style: solid;
+  border-left-color: #900000;
+  padding-left: 10px;
+}
+
+#lcontent p{
+  border-bottom-style: ridge;
+  width: 350px;
+  font-family: "PT Serif", sans-serif
+}
+
+#lcontent ul{
+  font-family: "Abel", sans-serif;
+  list-style-type: square;
+}
+
+#acontent{
+  position: relative;
+  left: 490px;
+  bottom: 270px;
+  border-left-style: solid;
+  border-left-color: #900000;
+  padding-left: 10px;
+}
+
+#acontent p{
+  border-bottom-style: ridge;
+  width: 350px;
+  font-family: "PT Serif", sans-serif
+}
+
+#acontent ul{
+  font-family: "Abel", sans-serif;
+  list-style-type: square;
+}
+
+#wcontent h5{
+  font-family: "Poiret One", sans-serif;
+  font-size: 18px;
 }
